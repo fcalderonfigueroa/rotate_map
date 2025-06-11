@@ -45,7 +45,7 @@ tm_shape(bogota[!bogota$LocNombre=='SUMAPAZ',]) +
   tm_borders(col = 'gray') +
   tm_text(text = 'LocNombre', size = 0.5) +
   tm_compass(north = angle, type = '4star') +
-  tm_crs(crs_string)
+  tm_crs(proj_string)
 ```
 
 The resulting map:
