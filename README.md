@@ -52,13 +52,17 @@ The resulting map:
 
 ![](bogota_rotated_map.png)
 
+Here is another [example](https://github.com/fcalderonfigueroa/rotate_map/blob/main/example.R) with some additional customization using the `{tmap}` package:
+
+![](bogota_ciclovia.png)
+
 ## Dependencies
 
-* `sf`
+* [`{sf}`](https://cran.r-project.org/web/packages/sf/index.html)
 
 ## Note on Compass Orientation
 
-As in the example above using `tmap`, make sure to pass the same **rotation angle** to the compass--in this case, using the `north` argument in the `tm_compass()` function.
+As in the example above using `{tmap}`, make sure to pass the same **rotation angle** to the compass--in this case, using the `north` argument in the `tm_compass()` function.
 
 ## License
 
