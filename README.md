@@ -1,8 +1,8 @@
 # Local Oblique Mercator Projection for "Rotated" Maps
 
-This repository contains a simple function, `crs_rotate()`, that facilitates rotating maps created in R using ad-hoc **oblique Mercator projections**. The function uses the centroid of a spatial feature collection, `sf`, and a specified angle as the parameters for the projection.
+This repository contains a simple function, `crs_rotated()`, that facilitates rotating maps created in R using an ad-hoc **oblique Mercator projection**. The function takes the centroid of a spatial feature collection, `sf`, and a specified angle as the parameters for the projection.
 
-The function is useful for maps that follow cartographic conventions (e.g., the usual orientation of maps of cities like Toronto or Bogota), or that align with certain spatial features (e.g., metro lines). Note that this is an implementation of a solution posted to [Stack Overflow](https://stackoverflow.com/questions/66889558/rotate-ggplot2-maps-to-arbitrary-angles).
+This function is useful for maps that follow cartographic conventions (e.g., Toronto's grid is displayed parallel to the map's borders), or that align with certain spatial features (e.g., metro lines). Note that this is a generalized implementation of a solution posted to [Stack Overflow](https://stackoverflow.com/questions/66889558/rotate-ggplot2-maps-to-arbitrary-angles) to the "rotated map" problem.
 
 ## Function
 
@@ -62,7 +62,7 @@ Here is another [example](https://github.com/fcalderonfigueroa/rotate_map/blob/m
 
 ## Note on Compass Orientation
 
-As in the example above using `{tmap}`, make sure to pass the same **rotation angle** to the compass--in this case, using the `north` argument in the `tm_compass()` function.
+As in the example above using `{tmap}`, make sure to pass the same **rotation angle** to the compass—in this case, using the `north` argument in the `tm_compass()` function.
 
 ## License
 
