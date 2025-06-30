@@ -52,7 +52,7 @@ The resulting map:
 
 ![](bogota_rotated_map.png)
 
-Here is another [example](https://github.com/fcalderonfigueroa/rotate_map/blob/main/example.R) with some additional customization using the `{tmap}` package:
+Here is another [example](https://github.com/fcalderonfigueroa/rotate_map/blob/main/example.R) with some additional customization using the `{tmap}`:package: package:
 
 ![](bogota_ciclovia.png)
 
